@@ -1,0 +1,19 @@
+{
+  "http.error.requestFailed": "",
+  "sideBar.label.dashboard": "",
+  "sideBar.label.products": "",
+  "sideBar.label.users": "",
+  "signIn.description.forgotPass": "",
+  "signIn.description.note": "",
+  "signIn.error.invalidIdentifier": "",
+  "signIn.error.userNotFound": "",
+  "signIn.label.email": "",
+  "signIn.label.password": "",
+  "signIn.label.rememberMe": "",
+  "signIn.label.signIn": "",
+  "signIn.label.signUp": "",
+  "signIn.label.title": "",
+  "signIn.validate.email": "",
+  "signIn.validate.minLength": "",
+  "signIn.validate.require": ""
+}

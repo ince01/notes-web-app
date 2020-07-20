@@ -1,0 +1,19 @@
+{
+  "http.error.requestFailed": "Something Went Wrong",
+  "sideBar.label.dashboard": "Dashboard",
+  "sideBar.label.products": "Products",
+  "sideBar.label.users": "Users",
+  "signIn.description.forgotPass": "Forgot password ?",
+  "signIn.description.note": "username: demo, password: demo",
+  "signIn.error.invalidIdentifier": "Invaild email or password",
+  "signIn.error.userNotFound": "User not found",
+  "signIn.label.email": "Email",
+  "signIn.label.password": "Password",
+  "signIn.label.rememberMe": "Remember me",
+  "signIn.label.signIn": "Sign in",
+  "signIn.label.signUp": "Sign up",
+  "signIn.label.title": "UTE Exchange",
+  "signIn.validate.email": "Invaild email",
+  "signIn.validate.minLength": "Minimum length is {length}",
+  "signIn.validate.require": "{field} is required"
+}
