@@ -8,4 +8,5 @@ const ViLang = {
   locale: 'vi-VN',
   antd: antdLocale,
 };
+
 export default ViLang;

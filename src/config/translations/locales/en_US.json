@@ -1,8 +1,4 @@
 {
-  "http.error.requestFailed": "Something Went Wrong",
-  "sideBar.label.dashboard": "Dashboard",
-  "sideBar.label.products": "Products",
-  "sideBar.label.users": "Users",
   "signIn.description.forgotPass": "Forgot password ?",
   "signIn.description.note": "username: demo, password: demo",
   "signIn.error.invalidIdentifier": "Invaild email or password",

@@ -8,4 +8,5 @@ const EnLang = {
   locale: 'en-US',
   antd: antdLocale,
 };
+
 export default EnLang;
