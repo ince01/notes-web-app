@@ -1,106 +1,15 @@
-[
-    {
-        "term": "signIn.description.forgotPass",
-        "definition": null,
-        "context": "",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    },
-    {
-        "term": "signIn.description.note",
-        "definition": null,
-        "context": "",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    },
-    {
-        "term": "signIn.error.invalidIdentifier",
-        "definition": null,
-        "context": "",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    },
-    {
-        "term": "signIn.error.userNotFound",
-        "definition": null,
-        "context": "",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    },
-    {
-        "term": "signIn.label.email",
-        "definition": null,
-        "context": "",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    },
-    {
-        "term": "signIn.label.password",
-        "definition": null,
-        "context": "",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    },
-    {
-        "term": "signIn.label.rememberMe",
-        "definition": null,
-        "context": "",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    },
-    {
-        "term": "signIn.label.signIn",
-        "definition": null,
-        "context": "",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    },
-    {
-        "term": "signIn.label.signUp",
-        "definition": null,
-        "context": "",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    },
-    {
-        "term": "signIn.label.title",
-        "definition": null,
-        "context": "",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    },
-    {
-        "term": "signIn.validate.email",
-        "definition": null,
-        "context": "",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    },
-    {
-        "term": "signIn.validate.minLength",
-        "definition": null,
-        "context": "",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    },
-    {
-        "term": "signIn.validate.require",
-        "definition": null,
-        "context": "",
-        "term_plural": "",
-        "reference": "",
-        "comment": ""
-    }
-]
+{
+    "signIn.description.forgotPass": "",
+    "signIn.description.note": "",
+    "signIn.error.invalidIdentifier": "",
+    "signIn.error.userNotFound": "",
+    "signIn.label.email": "",
+    "signIn.label.password": "",
+    "signIn.label.rememberMe": "",
+    "signIn.label.signIn": "",
+    "signIn.label.signUp": "",
+    "signIn.label.title": "",
+    "signIn.validate.email": "",
+    "signIn.validate.minLength": "",
+    "signIn.validate.require": ""
+}
