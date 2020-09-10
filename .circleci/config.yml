@@ -2,7 +2,22 @@ version: 2.1
 orbs:
   codecov: codecov/codecov@1.0.2
 jobs:
-  build:
+  Run-With-Node:
+    docker:
+      - image: circleci/node:10-browsers
     steps:
+      - checkout
+      - run:
+          name: install and run tests
+          command: |
+            yarn install && yarn test:ci --coverage
       - codecov/upload:
-          file:
+          file: './coverage/clover.xml'
+          token: $CODECOV_TOKEN
+workflows:
+  Example_Workflow:
+    jobs:
+      - Run-With-Node
+
+
+            

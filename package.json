@@ -7,6 +7,7 @@
     "pre-build": "yarn build:css && yarn extract-messages",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:ci": "CI=true react-scripts test",
     "clean": "rm -rf node_modules",
     "eject": "react-scripts eject",
     "lint:check": "eslint .",
