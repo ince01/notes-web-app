@@ -1,4 +1,4 @@
-import antdLocale from 'antd/es/locale-provider/vi_VN';
+// import antdLocale from 'antd/es/locale-provider/vi_VN';
 import viMessages from '../locales/vi_VN.json';
 
 const ViLang = {
@@ -6,7 +6,7 @@ const ViLang = {
     ...viMessages,
   },
   locale: 'vi-VN',
-  antd: antdLocale,
+  antd: {},
 };
 
 export default ViLang;

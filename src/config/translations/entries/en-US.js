@@ -1,4 +1,4 @@
-import antdLocale from 'antd/es/locale-provider/en_US';
+// import antdLocale from 'antd/es/locale-provider/en_US';
 import enMessages from '../locales/en_US.json';
 
 const EnLang = {
@@ -6,7 +6,7 @@ const EnLang = {
     ...enMessages,
   },
   locale: 'en-US',
-  antd: antdLocale,
+  antd: {},
 };
 
 export default EnLang;

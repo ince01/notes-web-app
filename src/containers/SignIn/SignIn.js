@@ -28,7 +28,7 @@ function SignIn() {
             help={errors?.email?.message}
           >
             <Controller
-              as={<Input size="large" placeholder={f(messages.label.email)} autoComplete="true" />}
+              as={<Input data-testid="email" size="large" placeholder={f(messages.label.email)} autoComplete="true" />}
               name="email"
               control={control}
             />
@@ -41,6 +41,7 @@ function SignIn() {
             <Controller
               as={
                 <Input.Password
+                  data-testid="password"
                   size="large"
                   type="password"
                   placeholder={f(messages.label.password)}
@@ -56,7 +57,7 @@ function SignIn() {
               <FormattedMessage {...messages.description.forgotPass} />
             </Link>
           </div>
-          <Button className="w-full" type="primary" htmlType="submit">
+          <Button data-testid="signin-button" className="w-full" type="primary" htmlType="submit">
             <FormattedMessage {...messages.label.signIn} />
           </Button>
         </Form>
