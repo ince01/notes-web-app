@@ -4,13 +4,14 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
+    "pre-build": "yarn build:css && yarn extract-messages",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "clean": "rm -rf node_modules",
     "eject": "react-scripts eject",
     "lint:check": "eslint .",
     "lint:fix": "eslint . --fix",
-    "build:css": "tailwindcss build src/assets/styles/tailwind.scss -o src/assets/styles/globalStyles.css",
+    "build:css": "tailwindcss build src/assets/styles/tailwind.css -o src/assets/styles/globalStyles.css",
     "extract-messages": "extract-messages -l en_US,vi_VN -o src/config/translations/locales --flat true -d en_US 'src/**/messages.js'"
   },
   "dependencies": {
@@ -39,6 +40,7 @@
     "reselect": "^4.0.0",
     "styled-components": "^5.1.1",
     "tailwindcss": "^1.4.6",
+    "twin.macro": "^1.6.0",
     "yup": "^0.29.1"
   },
   "devDependencies": {

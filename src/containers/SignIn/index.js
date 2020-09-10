@@ -1,5 +1,3 @@
-import React from 'react';
+import SignIn from './SignIn';
 
-export default function App() {
-  return <p>Hello</p>;
-}
+export default SignIn;

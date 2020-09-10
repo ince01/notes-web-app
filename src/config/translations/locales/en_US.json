@@ -1,15 +1,14 @@
 {
-    "signIn.description.forgotPass": "",
-    "signIn.description.note": "",
-    "signIn.error.invalidIdentifier": "",
-    "signIn.error.userNotFound": "",
-    "signIn.label.email": "Email",
-    "signIn.label.password": "Password",
-    "signIn.label.rememberMe": "Remember me",
-    "signIn.label.signIn": "Sign in",
-    "signIn.label.signUp": "Sign up",
-    "signIn.label.title": "Hello!",
-    "signIn.validate.email": "",
-    "signIn.validate.minLength": "",
-    "signIn.validate.require": ""
+  "signIn.description.forgotPass": "Forgot password ?",
+  "signIn.error.invalidIdentifier": "Invaild email or password",
+  "signIn.error.userNotFound": "User not found",
+  "signIn.label.email": "Email",
+  "signIn.label.password": "Password",
+  "signIn.label.rememberMe": "Remember me",
+  "signIn.label.signIn": "Sign in",
+  "signIn.label.signUp": "Sign up",
+  "signIn.label.title": "UTE Exchange",
+  "signIn.validate.email": "Invaild email",
+  "signIn.validate.minLength": "Minimum length is {length}",
+  "signIn.validate.require": "{field} is required"
 }

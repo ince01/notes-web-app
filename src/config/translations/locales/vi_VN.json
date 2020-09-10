@@ -1,15 +1,14 @@
 {
-    "signIn.description.forgotPass": "",
-    "signIn.description.note": "",
-    "signIn.error.invalidIdentifier": "",
-    "signIn.error.userNotFound": "",
-    "signIn.label.email": "",
-    "signIn.label.password": "",
-    "signIn.label.rememberMe": "",
-    "signIn.label.signIn": "",
-    "signIn.label.signUp": "",
-    "signIn.label.title": "",
-    "signIn.validate.email": "",
-    "signIn.validate.minLength": "",
-    "signIn.validate.require": ""
+  "signIn.description.forgotPass": "",
+  "signIn.error.invalidIdentifier": "",
+  "signIn.error.userNotFound": "",
+  "signIn.label.email": "",
+  "signIn.label.password": "",
+  "signIn.label.rememberMe": "",
+  "signIn.label.signIn": "",
+  "signIn.label.signUp": "",
+  "signIn.label.title": "",
+  "signIn.validate.email": "",
+  "signIn.validate.minLength": "",
+  "signIn.validate.require": ""
 }
