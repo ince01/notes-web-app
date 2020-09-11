@@ -1,23 +1,43 @@
 version: 2.1
 orbs:
   codecov: codecov/codecov@1.0.2
+  cypress: cypress-io/cypress@1
 jobs:
-  Run-With-Node:
+  Run-test:
     docker:
       - image: circleci/node:10-browsers
     steps:
       - checkout
       - run:
-          name: install and run tests
+          name: Install dependencies
+          command: yarn install
+      - run:
+          name: Run lint code
           command: |
-            yarn install && yarn test:ci --coverage
+            mkdir -p ~/reports
+            yarn eslint . --format junit --output-file ~/reports/eslint.xml
+      - store_test_results:
+          path: ~/reports
+      - store_artifacts:
+          path: ~/reports
+      - run:
+          name: Run intergration test with coverage
+          command: yarn test:ci --coverage
       - codecov/upload:
           file: './coverage/clover.xml'
           token: $CODECOV_TOKEN
 workflows:
-  Example_Workflow:
+  intergration_test:
     jobs:
-      - Run-With-Node
-
-
-            
+      - Run-test
+  e2e_test:
+    jobs:
+      - cypress/run:
+          yarn: true
+          build: yarn build
+          start: yarn serve
+          wait-on: $CYPRESS_BASE_URL
+          record: true
+          executor: cypress/browsers-chrome69
+          browser: chrome
+          working_directory: e2e
