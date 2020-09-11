@@ -3,7 +3,7 @@ orbs:
   codecov: codecov/codecov@1.0.2
   cypress: cypress-io/cypress@1
 jobs:
-  run-test:
+  run-lint-and-test:
     docker:
       - image: circleci/node:12-browsers
     steps:
@@ -29,7 +29,7 @@ jobs:
 workflows:
   intergration_test:
     jobs:
-      - run-test
+      - run-lint-and-test
   e2e_test:
     jobs:
       - cypress/run:
