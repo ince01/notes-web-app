@@ -1,4 +1,5 @@
 import '@testing-library/jest-dom/extend-expect';
+import 'mutationobserver-shim';
 import React from 'react';
 import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
@@ -6,6 +7,8 @@ import { MemoryRouter } from 'react-router-dom';
 import { IntlProvider } from 'react-intl';
 import store from 'redux/store';
 import AppLocale from './config/translations';
+
+global.MutationObserver = window.MutationObserver;
 
 Object.defineProperty(window, 'matchMedia', {
   writable: true,

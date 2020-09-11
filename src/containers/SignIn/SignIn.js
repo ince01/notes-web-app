@@ -10,7 +10,11 @@ import SignInStyleWrapper from './SignIn.style';
 function SignIn() {
   const { formatMessage: f } = useIntl();
 
-  const { control, errors } = useForm({ mode: 'onBlur', validationSchema: signInSchema(f) });
+  const { control, errors } = useForm({
+    mode: 'onBlur',
+    validationSchema: signInSchema(f),
+    defaultValues: { email: '', password: '' },
+  });
 
   return (
     <SignInStyleWrapper>

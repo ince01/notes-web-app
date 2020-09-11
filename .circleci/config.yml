@@ -5,7 +5,7 @@ orbs:
 jobs:
   run-lint-and-test:
     docker:
-      - image: circleci/node:12-browsers
+      - image: circleci/node:12
     steps:
       - checkout
       - run:
@@ -38,6 +38,5 @@ workflows:
           start: yarn serve
           wait-on: $CYPRESS_BASE_URL
           record: true
-          executor: cypress/browsers-chrome69
-          browser: chrome
           working_directory: e2e
+          store_artifacts: true

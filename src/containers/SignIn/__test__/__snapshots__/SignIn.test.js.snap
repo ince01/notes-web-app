@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-AxjAm ijJIWA"
+        class="sc-bdnylx cFABEV"
       >
         <div
           class="flex flex-col w-96 max-w-full bg-white rounded-lg p-5 shadow-lg"
@@ -87,7 +87,7 @@ Object {
                     class="ant-form-item-control-input-content"
                   >
                     <span
-                      class="ant-input-password ant-input-password-large ant-input-affix-wrapper ant-input-affix-wrapper-lg"
+                      class="ant-input-affix-wrapper ant-input-affix-wrapper-lg ant-input-password ant-input-password-large"
                     >
                       <input
                         action="click"
@@ -143,7 +143,7 @@ Object {
               </a>
             </div>
             <button
-              class="ant-btn w-full ant-btn-primary"
+              class="ant-btn ant-btn-primary w-full"
               data-testid="signin-button"
               type="submit"
             >
@@ -156,7 +156,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AxjAm ijJIWA"
+      class="sc-bdnylx cFABEV"
     >
       <div
         class="flex flex-col w-96 max-w-full bg-white rounded-lg p-5 shadow-lg"
@@ -237,7 +237,7 @@ Object {
                   class="ant-form-item-control-input-content"
                 >
                   <span
-                    class="ant-input-password ant-input-password-large ant-input-affix-wrapper ant-input-affix-wrapper-lg"
+                    class="ant-input-affix-wrapper ant-input-affix-wrapper-lg ant-input-password ant-input-password-large"
                   >
                     <input
                       action="click"
@@ -293,7 +293,7 @@ Object {
             </a>
           </div>
           <button
-            class="ant-btn w-full ant-btn-primary"
+            class="ant-btn ant-btn-primary w-full"
             data-testid="signin-button"
             type="submit"
           >
