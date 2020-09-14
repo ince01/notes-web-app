@@ -1,6 +1,6 @@
 {
   "name": "notes-web-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
@@ -9,8 +9,8 @@
     "serve": "serve -s build -l ${PORT:-8080}",
     "test": "react-scripts test",
     "test:ci": "CI=true react-scripts test",
-    "cypress": "cd ./e2e && docker-compose up",
     "clean": "rm -rf node_modules",
+    "release": "standard-version",
     "eject": "react-scripts eject",
     "lint:check": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -62,6 +62,7 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
+    "standard-version": "^9.0.0",
     "typescript": "^3.9.6"
   },
   "husky": {
